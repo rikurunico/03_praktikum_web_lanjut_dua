@@ -74,7 +74,7 @@
                     </div>                                      			
 				</div>
 
-				<div class="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="img/contact-2.jpg"></div>
+				<div class="parallax-window parallax-window-2" data-parallax="scroll" data-image-src="{{ asset('/asset/img/contact-2.jpg')}}"></div>
 
 				<div class="mx-auto tm-content-container mt-4 px-3 mb-3">
                     <div class="row">
@@ -85,7 +85,7 @@
 					<div class="row">
 		                <div class="col-lg-6 mb-5 pt-3">
 		                    <div class="media tm-testimonial">
-                                <img class="mr-4 rounded-circle img-fluid" src="asset/img/testimonial-1.jpg" alt="Generic placeholder image">
+                                <img class="mr-4 rounded-circle img-fluid" src="{{ asset('asset/img/testimonial-1.jpg')}}" alt="Generic placeholder image">
                                 <p class="media-body pt-3 tm-testimonial-text">
                                     Vestibulum non lectus id lacus aliquet porttitor in non nulla. Aenean urna diam, finibys id lorem nec, feugiat convallis dolor. Integer aliquam, eros eget rutrum iaculis.    
                                 </p>                              
@@ -93,7 +93,7 @@
 		                </div>
 		                <div class="col-lg-6 mb-5 pt-3">
                               <div class="media tm-testimonial">
-                              <img class="mr-4 rounded-circle img-fluid" src="asset/img/testimonial-2.jpg" alt="Generic placeholder image">
+                              <img class="mr-4 rounded-circle img-fluid" src="{{ asset('asset/img/testimonial-2.jpg')}}" alt="Generic placeholder image">
                               <p class="media-body pt-3 tm-testimonial-text">
                                 Maecenas et libero in eros laoreet finibus sed vitae diam. Etiam consetetur, nunc sed pretium elementum, diam erat fringilla tortor, placerat condimentum.
                               </p>
@@ -101,7 +101,7 @@
                         </div>
                         <div class="col-lg-6 mb-5 pt-3">
                             <div class="media tm-testimonial">
-                              <img class="mr-4 rounded-circle img-fluid" src="asset/img/testimonial-3.png" alt="Generic placeholder image">
+                              <img class="mr-4 rounded-circle img-fluid" src="{{ asset('asset/img/testimonial-3.png')}}" alt="Generic placeholder image">
                               <p class="media-body pt-3 tm-testimonial-text">
                                 Aliquam tristique ut magna sit amet tincidunt. Sed tempor tellus nulla, molestie luctus lectus tincidunt id. Cras duismod leo a urna placerat, vel blandit turpis fermentum.
                               </p>
@@ -109,7 +109,7 @@
                         </div>
                         <div class="col-lg-6 mb-5 pt-3">
                             <div class="media tm-testimonial">
-                              <img class="mr-4 rounded-circle img-fluid" src="asset/img/testimonial-4.png" alt="Generic placeholder image">
+                              <img class="mr-4 rounded-circle img-fluid" src="{{ asset('asset/img/testimonial-4.png')}}" alt="Generic placeholder image">
                               <p class="media-body pt-3 tm-testimonial-text">
                                 Nulla suscipit posuere lectus ut venenatis. Proin sed orci eget tellus euismod vulputate eu eu arcu. Etiam a bibendum lorem. Cura
                               </p>

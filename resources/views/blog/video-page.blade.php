@@ -32,7 +32,7 @@ https://templatemo.com/tm-552-video-catalog
 						<div class="col-12">
 							<!-- Video player 1422x800 -->
 							<video width="1422" height="800" controls autoplay>
-							  <source src="/asset/video/wheat-field.mp4" type="video/mp4">							  
+							  <source src="{{ asset('/asset/video/wheat-field.mp4')}}" type="video/mp4">							  
 							Your browser does not support the video tag.
 							</video>
 						</div>

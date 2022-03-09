@@ -33,7 +33,7 @@
 					</div>					
 				</div>
 
-				<div class="parallax-window" data-parallax="scroll" data-image-src="img/about-2.jpg"></div>
+				<div class="parallax-window" data-parallax="scroll" data-image-src="{{ asset('/asset/img/about-2.jpg')}} "></div>
 
 				<div class="mx-auto tm-content-container mt-4 px-3">
 					<div class="row tm-catalog-item-list mb-4">
@@ -82,7 +82,7 @@
 		            </div>
 				</div>
 
-				<div class="parallax-window" data-parallax="scroll" data-image-src="img/about-3.jpg"></div>
+				<div class="parallax-window" data-parallax="scroll" data-image-src="/asset/img/about-3.jpg"></div>
 			</div>
 		</main>
 

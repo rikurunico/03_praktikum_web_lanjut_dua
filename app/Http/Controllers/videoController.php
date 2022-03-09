@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class videoController extends Controller
+class VideoController extends Controller
 {
     public function video()
     {
-        return view('blog.video');
+        return view('blog.video',
+        ['title' => 'Video']);
     }
 }

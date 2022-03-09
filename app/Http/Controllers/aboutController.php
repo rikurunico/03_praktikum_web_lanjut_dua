@@ -4,10 +4,11 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class aboutController extends Controller
+class AboutController extends Controller
 {
     public function about()
     {
-        return view('blog.about');
+        return view('blog.about',
+        ['title' => 'About']);
     }
 }

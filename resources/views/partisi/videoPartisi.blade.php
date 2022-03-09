@@ -4,7 +4,7 @@
         <div class="row tm-catalog-item-list">
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-01.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-01.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
@@ -15,7 +15,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-02.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-02.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
@@ -26,7 +26,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-03.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-03.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
@@ -37,7 +37,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-04.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-04.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
@@ -48,7 +48,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-05.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-05.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
@@ -59,7 +59,7 @@
             </div>
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="/asset/img/tn-06.jpg" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset('/asset/img/tn-06.jpg')}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
