@@ -18,3 +18,4 @@
             @endforeach
         </div>
     </div>
+</div>
