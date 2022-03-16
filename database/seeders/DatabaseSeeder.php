@@ -19,22 +19,22 @@ class DatabaseSeeder extends Seeder
             [
                 [
                 'judul' => 'Nam tincidunt consectetur',
-                'gambar' => 'tn-01.jpg'
+                'gambar' => 'asset/img/tn-01.jpg'
             ],[
                 'judul' => 'Praesent posuere rhoncus',
-                'gambar' => 'tn-02.jpg'
+                'gambar' => 'asset/img/tn-02.jpg'
             ],[
                 'judul' => 'Turpis massa aliquam',
-                'gambar' => 'tn-03.jpg'
+                'gambar' => 'asset/img/tn-03.jpg'
             ],[
                 'judul' => 'Nam tincidunt consectetur',
-                'gambar' => 'tn-04.jpg'
+                'gambar' => 'asset/img/tn-04.jpg'
             ],[
                 'judul' => 'Praesent posuere rhoncus',
-                'gambar' => 'tn-05.jpg'
+                'gambar' => 'asset/img/tn-05.jpg'
             ],[
                 'judul' => 'Turpis massa aliquam',
-                'gambar' => 'tn-06.jpg'
+                'gambar' => 'asset/img/tn-06.jpg'
             ]
             ]);
     }

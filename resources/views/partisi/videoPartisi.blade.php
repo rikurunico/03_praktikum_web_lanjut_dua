@@ -1,4 +1,3 @@
-
 <div class="row pt-4 pb-5">
     <div class="col-12">
         <h2 class="mb-5 tm-text-primary">Related Videos for You</h2>
@@ -6,7 +5,7 @@
             @foreach ($videos as $vid)
             <div class="col-lg-4 col-md-6 col-sm-12 tm-catalog-item">
                 <div class="position-relative tm-thumbnail-container">
-                    <img src="{{ asset('/asset/img/' . $vid->gambar)}}" alt="Image" class="img-fluid tm-catalog-item-img">    
+                    <img src="{{ asset($vid->gambar)}}" alt="Image" class="img-fluid tm-catalog-item-img">    
                     <a href="video-page" class="position-absolute tm-img-overlay">
                         <i class="fas fa-play tm-overlay-icon"></i>
                     </a>
