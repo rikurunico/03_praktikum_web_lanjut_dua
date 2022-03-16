@@ -9,8 +9,7 @@ class VideoController extends Controller
 {
     public function video()
     {
-        return view('blog.video',
-        ['title' => 'Video'],
-        ['videos' => Video::all()]);
+        $videos = Video::paginate(3);
+        return view('blog.video',['title' => 'Video'],['videos' => $videos]);
     }
 }

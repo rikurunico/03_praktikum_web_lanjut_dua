@@ -9,8 +9,7 @@ class VideoPage extends Controller
 {
     public function videoPage()
     {
-        return view('blog.video-page',
-        ['title' => 'Video-Page'],
-        ['videos' => Video::all()]);
+        $videos = Video::paginate(3);
+        return view('blog.video-page',['title' => 'Video'],['videos' => $videos]);
     }
 }

@@ -15,6 +15,17 @@
                 </div>
             </div>
             @endforeach
-        </div>
+        </div> 
     </div>
+</div>
+</div>      
+<!-- Catalog Paging Buttons -->
+<div>
+    <ul class="nav tm-paging-links"> 
+        <li class="nav-item"><a href="?page=1" class="nav-link tm-paging-link">1</a></li>
+        <li class="nav-item"><a href="?page=2" class="nav-link tm-paging-link">2</a></li>
+        <li class="nav-item"><a href="#" class="nav-link tm-paging-link">3</a></li>
+        <li class="nav-item"><a href="#" class="nav-link tm-paging-link">4</a></li>
+        <li class="nav-item"><a href="#" class="nav-link tm-paging-link">></a></li>
+    </ul>
 </div>
